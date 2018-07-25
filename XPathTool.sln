@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XPathTool", "XPathTool\XPathTool.csproj", "{5C178C02-3148-437A-93CC-EA9C797EF530}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XPathTool.WPF", "XPathTool.WPF\XPathTool.WPF.csproj", "{E95449D2-F876-4CFB-B5B7-F31F7C729836}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XPathTool", "XPathTool\XPathTool.csproj", "{64F79732-21BE-4980-9584-2535B23CD624}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5C178C02-3148-437A-93CC-EA9C797EF530}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5C178C02-3148-437A-93CC-EA9C797EF530}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5C178C02-3148-437A-93CC-EA9C797EF530}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5C178C02-3148-437A-93CC-EA9C797EF530}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E95449D2-F876-4CFB-B5B7-F31F7C729836}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E95449D2-F876-4CFB-B5B7-F31F7C729836}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E95449D2-F876-4CFB-B5B7-F31F7C729836}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E95449D2-F876-4CFB-B5B7-F31F7C729836}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64F79732-21BE-4980-9584-2535B23CD624}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64F79732-21BE-4980-9584-2535B23CD624}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64F79732-21BE-4980-9584-2535B23CD624}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64F79732-21BE-4980-9584-2535B23CD624}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
